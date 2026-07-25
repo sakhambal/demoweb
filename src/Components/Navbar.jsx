@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { X, Menu } from "lucide-react";
 import  logo  from "../assets/CA_Logo.png"
 
-const LOGO_SRC = "";
+console.log(logo)
 
 const NAV_LINKS = [
   { label: "Home", href: "#home" },
