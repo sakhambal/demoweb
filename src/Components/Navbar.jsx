@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { X, Menu } from "lucide-react";
-import { logo } from "./assets/CA_Logo.png";
+import  logo  from "../assets/CA_Logo.png"
 
 const LOGO_SRC = "";
 
@@ -31,7 +31,7 @@ const Navbar = () => {
       >
         <div className="max-w-295 mx-auto flex items-center gap-8 px-5 sm:px-8 py-4">
           <a href="#home" className="flex items-center gap-2.5 shrink-0">
-            {LOGO_SRC && (
+            {logo && (
               <img
                 src={logo}
                 alt="CA India logo"
