@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { X, Menu } from "lucide-react";
+import { logo } from "./src/assets/CA_Logo.png";
 
-const LOGO_SRC = "./src/assets/CA_Logo.png";
+const LOGO_SRC = "";
 
 const NAV_LINKS = [
   { label: "Home", href: "#home" },
@@ -32,7 +33,7 @@ const Navbar = () => {
           <a href="#home" className="flex items-center gap-2.5 shrink-0">
             {LOGO_SRC && (
               <img
-                src={LOGO_SRC}
+                src={logo}
                 alt="CA India logo"
                 className="h-8 w-auto block"
               />
