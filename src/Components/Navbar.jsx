@@ -6,7 +6,7 @@ console.log(logo)
 
 const NAV_LINKS = [
   { label: "Home", href: "#home" },
-  { label: "About", href: "#teams" },
+  { label: "About", href: "#team" },
   { label: "Services", href: "#services" },
   { label: "Contact", href: "#contact" },
 ];
