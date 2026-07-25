@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { X, Menu } from "lucide-react";
-import { logo } from "./src/assets/CA_Logo.png";
+import { logo } from "../src/assets/CA_Logo.png";
 
 const LOGO_SRC = "";
 
